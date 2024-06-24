@@ -158,6 +158,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "shield.json",
 						"folderPath": "sanco_data/inbound",
 						"fileSystem": "datacontainer"
 					}
