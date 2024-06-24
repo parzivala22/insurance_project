@@ -1,0 +1,19 @@
+{
+	"name": "dinkdata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "sanco_data/inbound",
+				"fileSystem": "datacontainer"
+			}
+		},
+		"schema": {}
+	}
+}
